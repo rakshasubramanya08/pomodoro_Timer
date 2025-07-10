@@ -12,12 +12,12 @@
 }
 
 .head2{
-    border: 1px solid rgb(126, 105, 105);
+    
     width: 300px;
     height: 200px;
     margin: 20px auto;
-    box-shadow: 0 10px 20px rgb(0,0,0,0.5),
-     0 10px 20px rgb(0,0,0,0.5);
+    box-shadow: 0 10px 20px rgb(1,1,1,0.5),
+     0 10px 20px rgb(1,1,1,0.5);
     
 }
 body::after{
@@ -38,4 +38,43 @@ body::after{
 
 .head1{
     color: rgb(14, 14, 94);
+}
+.head1>h1{
+   background-color: rgb(246, 255, 255);
+}
+
+
+#btnSt:hover {
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+  }
+
+#btnSp:hover {
+    cursor: pointer;
+     background-color: brown;
+    color: white;
+  }
+#btnRs:hover {
+    cursor: pointer;
+     background-color: brown;
+    color: white;
+  }
+
+#btnSt{
+    background-color: rgb(202, 153, 78);
+    font-size: large;
+    margin-right: 20px;
+}
+
+#btnSp{
+    background-color: rgb(202, 153, 78);
+     font-size: large;
+    margin-right: 20px;
+
+}
+
+#btnRs{
+    background-color: rgb(202, 153, 78);
+     font-size: large;
 }
