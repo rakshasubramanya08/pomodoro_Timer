@@ -65,16 +65,18 @@ body::after{
     background-color: rgb(202, 153, 78);
     font-size: large;
     margin-right: 20px;
+    border-radius: 1px solid black;
 }
 
 #btnSp{
     background-color: rgb(202, 153, 78);
      font-size: large;
     margin-right: 20px;
-
+    border-radius: 1px solid black;
 }
 
 #btnRs{
     background-color: rgb(202, 153, 78);
      font-size: large;
+    border-radius: 1px solid black;
 }
