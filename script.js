@@ -23,5 +23,7 @@ function timeRun(){
     console.log(getTime);
     let minutes = Math.floor(timeInterval/60);
     let seconds = timeInterval % 60;
-
+    let fullTime = '${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}';
+    
+    getTime.innerText = fullTime;
 }
