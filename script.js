@@ -1,15 +1,19 @@
 const getTime = document.getElementById('timer');
 
 
-let btnStart = document.getElementById('btnSt');
-let btnStop = document.getElementById('btnSp');
-let btnReset = document.getElementById('btnRs');
+const btnStart = document.getElementById('btnSt');
+const btnStop = document.getElementById('btnSp');
+const btnReset = document.getElementById('btnRs');
 
 //timeRun();
 
 btnStart.addEventListener('click',()=>{
   return timeRun();
 })
+
+function startTime(){
+    
+}
 
 btnStop.addEventListener('click',()=>{
   return timeRun();
