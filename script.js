@@ -6,10 +6,8 @@ const btnStop = document.getElementById('btnSp');
 const btnReset = document.getElementById('btnRs');
 
 btnStart.addEventListener('click',startTime);
-
-btnStop.addEventListener('click',stopTimer)
-
-btnReset.addEventListener('click',resetTimer)
+btnStop.addEventListener('click',stopTimer);
+btnReset.addEventListener('click',resetTimer);
 
 let interval;       //to start or stop the time loop.
 let timeInterval = 1500;   // 1500 sec = 25min
